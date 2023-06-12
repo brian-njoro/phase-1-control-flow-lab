@@ -19,15 +19,16 @@ let gratitude
 function switchOnCharmFromTip(tip){
   switch (tip) {
     case `generous` :
-      gratitude = `Thank you so much`
+      gratitude = `Thank you so much`;
       break
       case `not generous` :
-        gratitude = `Thank you`
+        gratitude = `Thank you`;
+        break
         default:
-          gratitude = `Thanks for everything. Bye!`
+          gratitude = `Thanks for everything. Bye!`;
 
   }
-}
+} 
 
 console.log (ternaryCheckCity(`NYC`))
 console.log(scuberGreetingForFeet(2000))
